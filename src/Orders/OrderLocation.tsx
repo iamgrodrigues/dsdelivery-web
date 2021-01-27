@@ -1,12 +1,12 @@
 import { useState } from 'react';
 import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet';
-import AsyncSelect from 'react-select/async';
+import AsyncSelect from 'react-select';
 import { fetchLocalMapBox } from '../api';
 import { OrderLocationData } from './types';
 
 const initialPosition = {
-  lat: -18.9110558,
-  lng: -48.26201
+  lat: -23.5526833,
+  lng: -46.6342275
 }
 
 type Place = {
