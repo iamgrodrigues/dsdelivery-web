@@ -1,5 +1,5 @@
-import { formatPrice } from "./helpers";
-import { Product } from "./types"
+import { formatPrice } from './helpers';
+import { Product } from './types';
 
 type Props = {
   product: Product;
@@ -27,7 +27,7 @@ function ProductCard({ product, onSelectProduct, isSelected }: Props) {
       <div className="order-card-description">
         <h3>Descrição</h3>
         <p>
-          {product.description} 
+          {product.description}
         </p>
       </div>
     </div>
